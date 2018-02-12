@@ -1,0 +1,11 @@
+#working with get and put and renaming files
+ftp -h cnt4713 -u samuel -p whatup -A
+ls
+put mytestSamuel.txt
+dele mytestSamuel.txt
+ls
+cd gameislife
+get halo.txt  halosucks.txt
+cdup
+pwd
+quit

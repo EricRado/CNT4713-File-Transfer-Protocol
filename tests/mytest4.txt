@@ -1,0 +1,5 @@
+#user not allowed into the server
+ftp -h cnt4713 -u Jasmine -p fake -A
+list
+logout
+bye

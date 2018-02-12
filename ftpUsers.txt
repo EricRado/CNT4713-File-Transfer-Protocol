@@ -1,0 +1,6 @@
+eric 1994 admin
+fred hello user
+samuel whatup user
+Jasmine fake notallowed
+john superjohn user
+Ortega cnt4713 locked

@@ -1,0 +1,10 @@
+#a user will navigate his directory and try to reach the root directory of
+# the ftp and will be denied
+ftp -h cnt4713 -u fred -p hello -A
+ls
+cd cars
+ls
+cdup
+ls
+cdup
+quit

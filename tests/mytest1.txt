@@ -1,0 +1,14 @@
+#will test making  and removing directories of a user
+#renaming files and deleting
+ftp -h cnt4713 -u eric -p 1994  -A
+ls
+DELE hello.txt
+#admin user has access to the root directory
+cdup
+ls
+#admin allowed to go to other user directories
+cd user_Ortega
+mkdir adminMadeIt
+ls
+rmdir adminMadeIt
+bye
